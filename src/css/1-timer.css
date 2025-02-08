@@ -16,6 +16,7 @@
     padding: 8px 16px;
     margin-right: 8px;
     margin-bottom: 33px;
+    
 }
 
 #datetime-picker:hover {
@@ -25,8 +26,7 @@ border: 1px solid #4e75ff;
     border: 1px solid #000;
 }
 
-
-button {
+button[data-start] {
     background-color: #cfcfcf;
     border-radius: 8px;
     padding: 8px 16px;
